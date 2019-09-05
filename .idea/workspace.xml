@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9a0e2fb-ab49-421f-b706-9c86b3073024" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/第一章:数据结构和算法/1_7-字典排序.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第一章:数据结构和算法/1_10-删除序列相同元素并保持顺序.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +26,17 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,6 +57,7 @@
         <option value="$PROJECT_DIR$/第一章:数据结构和算法/1_3-保留n个元素.ipynb" />
         <option value="$PROJECT_DIR$/第一章:数据结构和算法/cookbook/somefile.txt" />
         <option value="$PROJECT_DIR$/第一章:数据结构和算法/test.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -73,7 +84,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -90,6 +100,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,7 +175,8 @@
       <workItem from="1567653432540" duration="297000" />
       <workItem from="1567654233000" duration="604000" />
       <workItem from="1567654976678" duration="238000" />
-      <workItem from="1567656656154" duration="2611000" />
+      <workItem from="1567656656154" duration="2853000" />
+      <workItem from="1567674873146" duration="1756000" />
     </task>
     <task id="LOCAL-00001" summary="first day">
       <created>1567649699932</created>
@@ -215,16 +227,44 @@
       <option name="project" value="LOCAL" />
       <updated>1567673381699</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="first day">
+      <created>1567674613728</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1567674613728</updated>
+    </task>
+    <task id="LOCAL-00009" summary="first day">
+      <created>1567674678785</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1567674678785</updated>
+    </task>
+    <task id="LOCAL-00010" summary="first day">
+      <created>1567676477393</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1567676477393</updated>
+    </task>
+    <task id="LOCAL-00011" summary="first day">
+      <created>1567677962639</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1567677962639</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7318000" />
+    <option name="totallyTimeSpent" value="9316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="480" y="23" width="1200" height="948" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16493955" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26165804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -245,7 +285,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32884097" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32973945" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32901555" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +316,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first day" />
@@ -291,19 +345,20 @@
     <entry file="file://$PROJECT_DIR$/第一章:数据结构和算法/1_2-解压可迭代对象赋值给多个变量.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/第一章:数据结构和算法/somefile.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="85" column="42" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/第一章:数据结构和算法/somefile.txt" />
     <entry file="file://$PROJECT_DIR$/第一章:数据结构和算法/test.py" />
     <entry file="file://$PROJECT_DIR$/第一章:数据结构和算法/1_3-保留n个元素.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/第一章:数据结构和算法/1_4-查找最大或最小的N个元素.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
